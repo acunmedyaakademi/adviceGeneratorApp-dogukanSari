@@ -1,0 +1,127 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  background-color: #202733;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+.container {
+  margin: 0 auto;
+  margin-block: 223px;
+  max-width: 540px;
+  background-color: #313A48;
+  border-radius: 35px;
+}
+
+.containerContent {
+  padding-inline: 48px;
+  padding-top: 48px;
+  margin: 0 auto;
+}
+
+.containerHeader {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  font-family: 'Manrope',sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 17.76px;
+  letter-spacing: 4.085713863372803px;
+  text-align: center;
+  color: #53FFAA;
+}
+
+.content {
+  max-width: 444px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  font-family: 'Manrope',sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38.25px;
+  letter-spacing: -0.30000001192092896px;
+  text-align: center;
+  color: #CEE3E9;
+}
+
+.lineImage {
+  margin-bottom: 40px;
+}
+
+.button {
+  margin: 0 auto;
+  position: relative;
+  top: 32px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #53FFAA;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 40px 0px #53FFAA;
+}
+
+.button button {
+  background: none;
+  border: none;
+}
+
+#generateBtn img {
+  padding: 20px 20px;
+}
+
+@media (width <= 375px) {
+  .container {
+    margin-block: 120px;
+    max-width: 343px;
+  }
+
+  .containerContent {
+    padding-inline: 24px;
+    padding-top: 40px;
+  }
+
+  .containerHeader {
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 15.03px;
+    letter-spacing: 3.4571425914764404px;
+    margin-bottom: 24px;
+  }
+
+  .content {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    letter-spacing: -0.2571428716182709px;
+    margin-bottom: 24px;
+  }
+
+  .lineImage {
+    margin-bottom: 32px;
+  }
+}
